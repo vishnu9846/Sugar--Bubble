@@ -1,0 +1,558 @@
+html{
+    scroll-behavior: smooth
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ******************************************************* */
+/* head section start */
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 55;
+}
+.head ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.head h2{
+    color: #FF6B00;
+    font-family: 'Bonny', serif;
+    font-weight: bold;
+    font-size: 2.375rem
+}
+.container{
+    padding: 1rem 5rem;
+}
+/* headsection ends */
+/* ******************************************************** */
+
+/* ******************************************************** */
+/* spotlight section start */
+.spotlight{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+.spotlight h1{
+    font-family: 'Bonny', serif;
+    font-weight: bold;
+    font-size: 78px;
+}
+.spotlight h2{
+    font-family: 'Bonny', serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+.spotlight h4{
+    font-size: 26px;
+    margin-top: 31px;
+    font-family: 'Montserrat', sans-serif;
+}
+.spotlight p{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+#img1{
+    width: 35%;
+    position: absolute;
+    right: 41px;
+    top: 159px;
+}
+#img2{
+    width: 320px;
+    position: relative;
+    top: 57px;
+    left: -14px;
+    left: -33px;
+}
+#Order{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-top: 15px;
+}
+#Order img{
+    width: 65px;
+}
+#Order button{
+    width: 105px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #FF6B00;
+    border: 0;
+}
+#Order button :hover{
+    background-color:black;
+    color:white;
+}
+
+/* **************************************************************** */
+/* spotlight section ends */
+
+.section1 h2{
+    font-size: 42px;
+    font-family: 'Bonny', serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 82px;
+}
+.section1 ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cake{
+    display: flex;
+    gap: 53px;
+    margin-top: 70px;
+    line-height: 25px;
+}
+.cake1{
+    /* background-color: aqua; */
+    height: 473px;
+    width: 309px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 32px;
+    font-family: 'Montserrat', sans-serif; 
+}
+.cake1{
+    text-align: center;
+}
+.cake-b{
+    width: 118px;
+    height: 32px;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 13px;
+    margin-top: 37px;
+    background-color: #FF6B00;
+}
+.cake-b :hover{
+    background-color: black;
+    color: white;
+    width: 118px;
+    height: 32px;
+}
+.ck1{
+    margin-top: 10px;
+}
+.ck2{
+    margin-top: 56px;
+}
+.ck{
+    margin-top: 55px;
+}
+.star{
+    margin-top: 242px;
+    height: 210px;
+    background-color: #FFF3EA;
+    text-align: center;
+    border-color: rgb(138, 138, 212);
+    border-style: groove;
+}
+#star1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 55px;
+    font-family: 'Bonny', serif;
+    gap: 15px;
+}
+.star p{
+    margin-top: 39px;
+    font-family: 'Montserrat', sans-serif; 
+}
+.about{
+    margin-top: 125px;
+    /* argin-top: 181px; */
+    text-align: center;
+    background-color: azure;
+    height: 301px;
+    padding-top: 135px;
+}
+.about h4{
+    font-family: 'Bonny', serif;
+    font-size: 32px;
+}
+.about p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 18px;
+    margin-left: 106px;
+    margin-right: 85px; 
+}
+.mm{
+    background-color: #FF6B00;
+    /* height: 425px; */
+}
+#nn{
+    display:flex ;
+    justify-content: center;
+    line-height: 71px;
+}
+.off{
+    background-color: blue ;
+}
+#vn{
+    margin-top: -2rem;
+    max-width: 100%;
+}
+.page{
+    font-family: 'Bonny', serif;
+    font-size: 34px;
+    color: white;
+}
+.page1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.page2{
+    width: 173px;
+    height: 37px;
+    border: 0;
+    border-radius: 13px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.o a{
+    color: #FF6B00;
+}
+
+/* ***************************************************************** */
+
+/* ***************************************************************** */
+/* last section like fb insta email */
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+}
+#last1 p{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#last1 h3{
+    font-family: 'Bonny', serif;
+    font-size: 30px;
+}
+#last1 img{
+    margin-top: 20px;
+}
+#last3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 310px;
+    margin-top: 29px;
+}
+#last3 input{
+    height: 20;
+    border-radius: 106px;
+    width: 225px;
+    height: 27px;
+    padding-left: 15px;
+    border: 0;
+}
+#lastm{
+    height: 30px;
+    width: 353px;
+    outline: none;
+    border: 0;
+}
+#last2 h4{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#last2 p{
+    font-family: 'Montserrat', sans-serif;
+     margin-top: 30px;
+}
+#last4{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 37px;
+}
+.insta{
+    display: none;
+}
+/* last section ends  */
+/* *********************************************************************** */
+
+
+/* ************************************************************************ */
+.bar{
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    background-color: gainsboro;
+    justify-content: center;
+    width: 399px;
+    transition: .4s;
+    font-size: 18px;
+}
+.bar ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+    list-style: none;
+}
+#bar1.open{
+    height: 250px;
+}
+#mobile-icon{
+    display: none;
+}
+
+/* ********************************************************************** */
+
+
+/* ********************************************************************** */
+.menu {
+    padding-left: 390px; 
+
+  }
+
+  .menu ul {
+    list-style-type: none;
+    display: none; 
+    position: absolute;
+    box-shadow: none;
+    width: 100px;
+    /* height: 200px; */
+    transition: 10s;
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 2;
+    background-color: #FF6B00;
+    padding-left: 100px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+  #head button{
+    border: none;
+    background-color: non;
+    box-shadow: none;
+  }
+
+  /* ******************************************************************* */
+
+
+
+
+
+
+
+@media only screen and (max-width: 2396px){
+    #img1{
+        width: 29rem;
+    }
+    .cake{
+        justify-content: center;
+    }
+    #vn{
+    width: 100%;
+    margin-top: -3.1rem;
+    }
+    .mm{
+        height: 588px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    *{
+        max-width: 100%;
+    }
+    .container{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    *{
+        margin-left: -5px;
+        padding-left: 0px;
+    }
+    #head ul{
+        display: none;
+    }
+    #fb{
+        display: none;
+    }
+    .head h2{
+        font-size: 3rem;
+        display: block;
+        padding-left: 90px;
+    }
+    .spotlight{
+        display: block;
+    }
+    .spotlight h1{
+        font-size: 40px;
+        text-align: center;
+        padding-left: 69px;
+        display: flex;
+        justify-content: center;
+    }
+    .spotlight h2{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 64px;
+    }
+    .spotlight h4{
+        margin-top: 463px;
+        padding-left: 50px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .spotlight p{
+        text-align: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    #img1{
+        position: absolute;
+        width: 28rem;
+        top: 260px;
+        left: -10px;
+        right: 50px;
+    }
+    #img2{
+        width: 288px;
+        position: absolute;
+        top: 302px;
+        left: 55px;
+    }
+    #Order button{
+        margin-left: 116px;
+    }
+    .cake{
+        display: block;
+        margin-left: 50px;
+    }
+    .cake1{
+        margin-bottom: 30px;
+    }
+    .section1 h2{
+        padding-left: 50px;
+    }
+    .section1 ul{
+        gap: 30px;
+        margin-left: 56px;
+        font-size: 15px;
+    }
+    .last{
+        display: block;
+    }
+    .star{
+        margin-left: 20px;
+        width: 100%;
+        height: 250px;
+        margin-top: 0;
+    }
+    #ab{
+        width: 20px;
+    }
+    .about{
+        margin-left: 20px;
+        width: 420px;
+        margin-top: 0;
+        padding-bottom: 150px;
+    }
+    .about p{
+        margin-left: 0px;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+    }
+    #vn{
+        margin-top: -10px;
+        margin-left: -9px;
+    }
+    #nn{
+        margin-left: 35px;
+        text-align: center;
+        line-height: 2;
+    }
+    .mm{
+        width: 455px;
+        height: 335px;
+        padding-left: 35px;
+    }
+    .last{
+        text-align: center;
+        width: 455px;
+    }
+    #last1 img{
+       display: none; 
+    }
+    #last1{
+        display: none;
+    }
+    #last2{
+        background-color: #FFF3EA;
+        height: 300px;
+    }
+    #last2 p{
+        margin-left: 80px;
+    }
+    #last2 h4{
+        padding-left: 80px;
+        padding-top: 50px;
+        margin-left: 15px;
+    }
+    #last3 input{
+        margin-left: 10px;
+    }
+    #last3{
+        margin-left: 47px;
+    }
+    #last4{
+        display: none;
+    }
+    .insta{
+        display: block;
+        margin-top: 50px;
+        margin-left: 50px;
+        height: 100px;
+    }
+    .insta img{
+        padding-top: 20px;
+        gap: 10px;
+    }
+    #insta1{
+        padding-left: 20px;
+    }
+
+
+    #mobile-icon{
+        display: block;
+        color: #FF6B00;
+    }
+   
+
+}  
