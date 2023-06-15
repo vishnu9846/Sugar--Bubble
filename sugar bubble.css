@@ -319,7 +319,8 @@ a{
     list-style: none;
 }
 #bar1.open{
-    height: 250px;
+    height: 270px;
+    z-index: 55;
 }
 #mobile-icon{
     display: none;
